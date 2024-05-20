@@ -7,7 +7,7 @@ Create a function that determines whether or not a given year is a leap year. Le
 > -- <cite>[Learn to Program](https://pine.fm/LearnToProgram/chap_06.html) by Chris Pine</cite>
 
 ```javascript
-leapYears(2000) // is a leap year: returns true
+leapYears(2000) // rns trueis a leap year: retu
 leapYears(1985) // is not a leap year: returns false
 ```
 
