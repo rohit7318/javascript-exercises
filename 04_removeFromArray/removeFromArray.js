@@ -18,8 +18,15 @@ const removeFromArray = function(array , ...args)
     looping through the array, and returning  it's element , which are not present in a
     args array;
     */
-    return array.filter((element)=>{return !args.includes(element)});
+    // return array.filter((element)=>{return !args.includes(element)});
+    return array.filter(function(element){
+        return !args.includes(element);
+    })
+
 }
+
+
+
 
 
 // Do not edit below this line
